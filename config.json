@@ -1,0 +1,101 @@
+{
+  "pais": "BR",
+  "idioma": "pt-BR",
+  "marca_base": "Monster",
+  "marcas": {
+    "Monster": {
+      "grupo": "Monster Beverage (distrib. Coca-Cola)", "segmento": "Energético",
+      "buscas": ["\"Monster Energy\"", "\"energético Monster\"", "\"Monster Ultra\""],
+      "termos": ["monster energy", "energetico monster", "monster ultra", "monster beverage", "monster mango",
+                 "monster juice"],
+      "trends": "/m/061dl5"
+    },
+    "Red Bull": {
+      "grupo": "Red Bull GmbH", "segmento": "Energético",
+      "buscas": ["\"Red Bull\""],
+      "termos": ["red bull"],
+      "trends": "/m/0gl8r"
+    },
+    "Baly": {
+      "grupo": "Grupo Baly", "segmento": "Energético",
+      "buscas": ["\"energético Baly\"", "\"Baly\" energético"],
+      "termos": ["baly"],
+      "trends": "baly"
+    },
+    "TNT": {
+      "grupo": "Grupo Petrópolis", "segmento": "Energético",
+      "buscas": ["\"TNT Energy Drink\"", "\"energético TNT\""],
+      "termos": ["tnt energy", "energetico tnt"],
+      "trends": "energético tnt"
+    },
+    "Fusion": {
+      "grupo": "Ambev", "segmento": "Energético",
+      "buscas": ["\"Fusion Energy Drink\"", "\"energético Fusion\""],
+      "termos": ["fusion energy", "energetico fusion"],
+      "trends": "energético fusion"
+    },
+    "Coca-Cola": {
+      "grupo": "Coca-Cola", "segmento": "Refrigerante",
+      "buscas": ["\"Coca-Cola\""],
+      "termos": ["coca-cola", "coca cola", "cocacola", "coca zero"],
+      "trends": "/m/01yvs"
+    },
+    "Guaraná Antarctica": {
+      "grupo": "Ambev", "segmento": "Refrigerante",
+      "buscas": ["\"Guaraná Antarctica\""],
+      "termos": ["guarana antarctica"],
+      "trends": "/m/06w9mq"
+    },
+    "Pepsi": {
+      "grupo": "Ambev (licença PepsiCo)", "segmento": "Refrigerante",
+      "buscas": ["\"Pepsi\" refrigerante", "\"Pepsi Black\""],
+      "termos": ["pepsi"],
+      "trends": "/m/064d7"
+    },
+    "Itaipava": {
+      "grupo": "Grupo Petrópolis", "segmento": "Cerveja",
+      "buscas": ["\"cerveja Itaipava\"", "\"Itaipava\" cerveja"],
+      "termos": ["itaipava"],
+      "trends": "/g/121qys9s"
+    },
+    "Gatorade": {
+      "grupo": "Ambev (licença PepsiCo)", "segmento": "Isotônico",
+      "buscas": ["\"Gatorade\""],
+      "termos": ["gatorade"],
+      "trends": "/m/01ghgx"
+    },
+    "Powerade": {
+      "grupo": "Coca-Cola", "segmento": "Isotônico",
+      "buscas": ["\"Powerade\""],
+      "termos": ["powerade"],
+      "trends": "/m/040scs"
+    }
+  },
+  "categorias": {
+    "risco": ["morte", "morre", "morreu", "hospital", "internado", "anvisa", "recall", "proibe", "proibicao",
+              "intoxicacao", "processo", "justica", "multa", "polemica", "boicote", "denuncia", "reclamacao",
+              "contaminacao", "proibido", "fiscalizacao", "mal-estar", "mal estar", "passou mal", "passa mal",
+              "intoxicado", "golpe", "falsificado", "falsificacao", "queixa", "queixas", "critica", "criticas",
+              "criticada", "criticado", "repudio"],
+    "produto": ["sabor", "lancamento", "lanca", "lancou", "nova versao", "edicao limitada", "zero acucar",
+                "lata", "energetico", "bebida", "refrigerante", "cerveja"],
+    "marketing": ["campanha", "publicidade", "propaganda", "influenciador", "acao", "midia", "marketing",
+                  "festival", "evento", "embaixador", "collab", "parceria"],
+    "financas": ["acoes", "receita", "lucro", "balanco", "trimestre", "preco-alvo", "investidores",
+                 "nasdaq", "faturamento", "mercado de energeticos"],
+    "esporte": ["formula 1", "f1", "grande premio", "gp", "bragantino", "futebol", "piloto", "motogp",
+                "ducati", "corrida", "campeonato", "surf", "skate", "kite", "atleta", "supercross", "ufc",
+                "esports", "e-sports", "racing", "red bull 24 horas", "copa", "selecao", "verstappen",
+                "hamilton", "norris", "interlagos", "tsunoda", "lawson", "equipe", "escuderia"]
+  },
+  "alerta": {
+    "aumento_minimo_pct": 100,
+    "mencoes_minimas": 5,
+    "risco_exige_negativo": true,
+    "amostra_minima_sentimento": 15
+  },
+  "fontes_com_historico_completo": ["noticias"],
+  "youtube": {
+    "cota_max_por_coleta": 6000
+  }
+}

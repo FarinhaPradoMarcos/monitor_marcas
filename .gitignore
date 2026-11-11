@@ -1,0 +1,16 @@
+# segredos
+.env
+
+# gerado localmente
+dados/
+relatorios/
+modelos/
+dashboard.html
+*.part
+*.tmp
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
